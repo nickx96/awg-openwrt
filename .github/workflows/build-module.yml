@@ -17,7 +17,7 @@ jobs:
             target: mediatek
             subtarget: filogic
             vermagic: "aefd8655cca1d76721ca9a06d4b6f3d5-r1"
-          - tag: "24.10"
+          - tag: "24.10-SNAPSHOT"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: filogic
@@ -26,7 +26,7 @@ jobs:
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: filogic
-            vermagic: "aefd8655cca1d76721ca9a06d4b6f3d5"
+            vermagic: "aefd8655cca1d76721ca9a06d4b6f3d5-r1"
 
     steps:
       - uses: actions/checkout@v4
